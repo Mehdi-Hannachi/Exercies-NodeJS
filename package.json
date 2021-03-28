@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@pdftron/pdfnet-node": "^8.1.0",
+    "docx": "^5.5.0",
     "docx-pdf": "0.0.1",
     "express": "^4.17.1",
     "fs-extra": "^9.1.0",

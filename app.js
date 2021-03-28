@@ -4,6 +4,8 @@ const fs = require("fs");
 
 const Script11 = require("./NodeScripts/Script11");
 
+const router = require("./NodeScripts/Script15");
+
 const app = express();
 
 app.use(express.json());
@@ -99,6 +101,12 @@ const minifyVersion = () => {
 
 // beautyVersion();
 // minifyVersion();
+
+// Script 15
+
+app.use("/", router);
+
+// Server connection
 
 const PORT = 5000;
 
